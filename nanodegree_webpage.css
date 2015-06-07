@@ -1,0 +1,41 @@
+/* makes the entire body of the page have a orange background unless changed by another elements style */
+body{
+	background-color: orange;
+	}
+/* gives my main heading with a green text color, centers it, bolds it, and gives it a text size of 40 and a solid black border */
+.title{
+	 color: green;
+	 text-align: center;
+	 font-weight: bold;
+	 font-size: 40px;
+	 border-bottom: 2px solid black;
+	}
+/*defines my style of my h2 tags which is my lesson headers with the text center a blue font and font size of 35 with a blue bottom border */
+h2{
+	text-align: center;
+	color: royalblue;
+	font-size: 35px;
+	border-bottom: 2px solid blue;
+	border-top: 2px solid blue;
+	}
+	/*gives each lesson its own borders where each one begins and ends */
+	.lesson{
+	border: 1px solid black;
+	}
+/*for my h3 tags which are my paragraph headers, I decided to make my font color darkcyan, font size of 25,  bold, and my font style oblique.*/
+h3{
+	color: darkcyan;
+	font-weight: bold;
+	font-style: oblique;
+	font-size: 25px
+	}
+/*the notes class defines the box for each paragraph within each lesson with these I can insert my dashed lines to show my break in each paragraph.*/
+.Notes{
+	border-top: 1px dashed black;
+	}
+.rule{
+	text-align: center;
+	font-weight: bolder;
+	color: darkgreen;
+	font-size: 20px
+	}
